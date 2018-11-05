@@ -7,8 +7,9 @@ I am appreciate Alex Graves for availing RNNLIB under GNU v3, which helps me to 
 However, over 5 years without maintainance, there are several bugs during compiling or executing the origin RNNLIB 
 on new OS versions, as well as new libraries such as *boost*, *netcdf*, and so on.
 
-Therefore, this repository is created to update RNNLIB with updates and fixed bugs.
+Therefore, this repository is created to update RNNLIB with clear documentations, updates and fixed bugs.
 I also provide some new utilities such as progress bar, Visual Studio version and so on.
+Moreover, I will write a tutorials for using RNNLIB in real situations.
 
 ## Contents
 - [Visual Studio version]()
