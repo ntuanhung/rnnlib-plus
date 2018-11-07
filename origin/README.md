@@ -2,11 +2,13 @@ RNNLIB is written in C++ and should compile on any platform. However it is curre
 
 Building it requires the following:
 
-* A modern C++ compiler (e.g. gcc 3.0 or higher)
+* A modern C++ compiler (e.g. gcc 3.0 or higher) until GCC/G++ version 4.6
 * GNU Libtool
-* GNU automake version 1.9 or higher
-* the NetCDF scientific data library
-* Boost C++ Libraries version 1.36 or higher (headers only, no compilation needed)
+* GNU automake version 1.9 ~~or higher~~
+* NetCDF scientific data library (netcdf-bin and python-netcdf (sometimes libnetcdf-dev, libhdf5-serial-dev, libnetpbm9-dev))
+* Boost C++ Libraries version 1.36 or higher (headers only, no compilation needed) libboost1.48-all-dev (very important) - does not work with higher versions
+
+==================================================================================
 
 In addition, the following python packages are needed for the auxiliary scripts in the 'utils' directory:
 
